@@ -28,6 +28,14 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: textarea
+    name: nieuw
+    label: nieuw
+    default: Reinforcing statement
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
   - name: permalink
     type: text
     label: Permalink
