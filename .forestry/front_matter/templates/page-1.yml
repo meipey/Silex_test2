@@ -2,32 +2,9 @@
 label: Page 1
 fields:
   - type: text
-    name: hoofdtekst
-    label: hoofdtekst
-    default: Mede with silex
-  - type: file
-    name: logo
-    label: logo
-    default: ''
-  - type: text
-    name: subtitle
-    label: subtitle
-    default: Lorem ipsum consequat
-  - type: text
-    name: titleparagr
-    label: titleparagraphe
-    default: Lorem ipsum consequat
-  - type: textarea
-    name: paragr
-    label: paragr
-    default: >-
-      Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum
-      mollis, omnis voluptas assumenda est, omnis dolor repellendus  placeat
-      facere.
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
+    name: h1homepage
+    label: h1homepage
+    default: made with love
   - name: permalink
     type: text
     label: Permalink
